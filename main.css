@@ -1,0 +1,60 @@
+#top {
+    color: aqua;
+}
+
+ul>li {
+    border: 1px solid red;
+}
+
+.paragraph {
+    color: brown;
+}
+
+#top {
+    color: blue;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(173, 198, 219);
+}
+
+.block:active {
+background-color: rgb(255, 0, 0);
+}
+
+*:focus {
+    background-color: brown;
+}
+
+input:disabled {
+    background-color: rgba(255, 0, 0 0.5);
+}
+
+.check:checked+span {
+    color: brown;
+    text-transform: uppercase;
+}
+
+.list2 {
+    background-color: aquamarine;
+    width: 300px;
+    border: 2px solid red;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item:last-child {
+    margin-bottom: 0px;
+}
+
+.item:first-child {
+    background-color: aqua;
+}
+
+.item:nth-child(2) {
+    background-color: brown;
+}
